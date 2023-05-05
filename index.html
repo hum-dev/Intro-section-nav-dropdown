@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!-- font awesome -->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-right">
+      <div class="header__logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">
+              <span>Features</span>
+              <div class="dropdown">
+                <!-- <a href="">Todo List</a>
+                <a href="">Calendar</a>
+                <a href="">Reminder</a>
+                <a href="">Planning</a> -->
+              </div>
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">
+              <span>Company</span>
+                <!-- <a href="">History</a>
+                <a href="">Our Team</a>
+                <a href="">Blog</a> -->
+              
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Career</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">About</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-left">
+      <a class="login" href="">Login</a>
+      <a class="register" href="">Register</a>
+    </div>
+  </header>
+
+<div class="container">
+  <div class="container__left">
+    <div class="container__left-text">
+      <h1> Make <br> remote work.</h1>
+      <p> Get your team in sync, no matter your location. <br> Streamline processes,
+         create team rituals, and <br> watch productivity soar.</p>
+      <button class="btn">Learn More</button>
+    </div>
+    <div class="part">
+      <img src="./images/client-databiz.svg" alt="">
+      <img src="./images/client-audiophile.svg" alt="">
+      <img src="./images/client-meet.svg" alt="">
+      <img src="./images/client-maker.svg" alt="">
+    </div>
+  </div>
+
+  <div class="container__right">
+    <img class="hero__image" src="./images/image-hero-desktop.png" alt="illustration">
+  </div>
+</div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Humphrey</a>.
+  </div>
+</body>
+</html>
